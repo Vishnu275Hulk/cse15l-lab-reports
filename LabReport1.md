@@ -45,7 +45,7 @@ Type yes and continue to login with your course-specific account's password.
 ![Image](Screenshot7.png)
 
 ## 4. Try Running Some Commands
-  * Try running `$ ls -lat`. It lists out the contents in your current working directory.
+  * Try running `$ ls -lat`. It lists out the contents in your current working directory of the remote shell.
 
 ![Image](Screenshot8.png)
 
