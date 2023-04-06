@@ -27,3 +27,30 @@ In this blog, I am going to give you a tutorial on how to get remote access thro
 ![Image](Screenshot5.png)
 
 ## 3. Acquiring Remote Connection
+   * Open a terminal on VS Code and enter the command as visible in the image below. The only difference is you'll need to change the last two letters of the username to match your's.
+
+![Image](Screenshot6.png)
+
+  * If this is the first time you've connected to the remote server, then you'll most likely see something similar to the following message:
+
+```
+The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
+RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? 
+```
+
+Type yes and continue to login with your course-specific account's password.
+  * Once you're in the remote server, you'll see something like this:
+  
+![Image](Screenshot7.png)
+
+## 4. Try Running Some Commands
+  * Try running `$ ls -lat`. It lists out the contents in your current working directory.
+
+![Image](Screenshot8.png)
+
+  * If you run `$ ls /home/linux/ieng6/cs15lsp23/`, you would see all the usernames in your current CSE 15L class listed out.
+
+![Image](Screenshot9.png)
+
+There you go! You've just ran commands in a remote server!
