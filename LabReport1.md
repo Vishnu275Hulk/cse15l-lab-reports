@@ -53,4 +53,4 @@ Type yes and continue to login with your course-specific account's password.
 
 ![Image](Screenshot9.png)
 
-There you go! You've just ran commands in a remote server!
+There you go! You've just ran commands on a remote server!
