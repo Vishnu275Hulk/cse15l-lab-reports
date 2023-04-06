@@ -20,10 +20,10 @@ Remember or note down your username and password!
 ## 2. Installing VS Code
 To install Visual Studio Code, go to [VSCode](https://code.visualstudio.com/). Then, download the stable version for macOS.
 
-![Image](Screenshot4)
+![Image](Screenshot4.png)
 
 After expanding the downloaded zip file, you will be able to start the application. It should look somewhat similar to the following image.
 
-![Image](Screenshot5)
+![Image](Screenshot5.png)
 
 ## 3. Acquiring Remote Connection
