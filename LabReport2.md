@@ -15,3 +15,11 @@ This lab report will be showing how a web server is created and demonstrate a fe
 
 ![Image](ss4_lab2.png)
 
+The main method in the StringServer class is called first. It checks if the argument is empty or not. Since it is not empty but has **7049** as the argument, it stores **7049** in the port field. It then generates a url.
+When we enter this url on the web, the `handleRequest(URI url)` method is called. First, it checks if the path equals `/add-message` and the query starts with `s`. Then, it stores the "Hello" string in the message field and adds it to request. Finally, we print the desired string on the webpage. 
+
+ * Here is another example. This time the code does a little more to give us a result.
+
+![Image](ss3_lab2.png)
+
+The process is exactly the same 
