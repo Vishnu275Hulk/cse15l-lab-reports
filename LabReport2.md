@@ -22,4 +22,4 @@ When we enter this url on the web, the `handleRequest(URI url)` method is called
 
 ![Image](ss3_lab2.png)
 
-The process is exactly the same 
+The process is exactly the same in printing "I". The code, however, does a little more in the end to obtain more strings. When we enter the string "I want the truth!", this string gets stored in the message field and is added to the request field on a new line. When we print request we get both "I" and "I want the truth!" together but on different lines because they are stored in the request field. Likewise, as we type in more strings in the url, the strings are successively added to the request field and get printed together. The request field simply keeps track of the strings that iterated through the `handleRequest(URI url)` method.
