@@ -26,7 +26,7 @@ The process is exactly the same in printing "I" as the previous example. The cod
 
 
 # Part 2: Bugs
- * In the file ArrayExamples.java, the `reversed(int[] arr)` method is buggy. This method returns a new array with all the elements of the imput array in reversed order. The following is the code for the method.
+ * In the file ArrayExamples.java, the `reversed(int[] arr)` method is buggy. This method returns a new array with all the elements of the input array in reversed order. The following is the code for the method.
 
 ```
 static int[] reversed(int[] arr) {
@@ -82,5 +82,5 @@ static int[] reversed(int[] arr) {
 This code is the same as the original one except that in this one each element of arr is added to the corresponding index of newArray in reverse order and this method returns newArray. This method works with all inputs. 
 
 # Part 3: Reflection
-In week 2, we learned how to create web servers and use code in java to augment the output shown on the URL's webpage. This was a pretty interesting thing that I didn't we could do using java. 
+In week 2, we learned how to create web servers and used code in java to augment the output shown on the URL's webpage. This was a pretty interesting thing that I didn't know we could do using java. 
 In week 3, we learned about the step-by-step process of debugging a code. I had some knowledge on debugging prior to this lab but I did not know the systematic process of doing it. Learning new terms such as failure-inducing point, symptoms, bugs, etc. and learning how to narrow down an unknown bug made debugging easier and more organized.
