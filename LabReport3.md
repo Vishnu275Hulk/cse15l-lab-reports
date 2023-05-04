@@ -55,7 +55,7 @@ this gives the required information pretty quickly thus saving their time.
 ```
 
 The following command prints all the lines and line numbers containing the word "Pentagon".
-If someone wants to find out the line number where Pentagon and Wolfowitz are referenced, this command would be worthwhile. 
+If someone wants to find out the line number where Pentagon and Wolfowitz(line 478) are referenced, this command would be worthwhile. 
 
 ```
 [cs15lsp23aj@ieng6-203]:technical:179$ grep -n "Pentagon" 911report/chapter-10.txt 
@@ -103,8 +103,8 @@ By default, grep matches the given string even if it is found as a substring in 
 This command gives a more precise result when asked to search for a word.
 
 The following command searches for the word "The". If we executed this command without implementing -w, 
-then it woulld've printed all the lines with the substring "The" which includes words like "They", "There", etc.
-The command gives a more precise and accurate output.
+then it would've printed all the lines with the substring "The" which includes words like "They", "There", etc.
+This command gives a more precise and accurate output.
 
 ```
 [cs15lsp23aj@ieng6-203]:technical:189$ grep -w "The" 911report/chapter-7.txt 
@@ -176,7 +176,7 @@ The command gives a more precise and accurate output.
 ```
 
 This command prints all the lines with the word "odor". By default, grep would print substrings such as "odorant", "odors", etc. 
-along with the given string. However, if we only wanted the word "odor" this command is quite useful.
+along with the given string. However, if we only wanted the word "odor", this is command.
 
 ```
 [cs15lsp23aj@ieng6-203]:technical:204$ grep -w  "odor" plos/journal.pbio.0030137.txt 
