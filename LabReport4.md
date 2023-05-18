@@ -4,7 +4,7 @@ This entails using vim for editing and git command line tools for cloning and pu
 The description for the tasks is as follows.
 
 # Task 1: Setup
-Before operating from the command line, I setup the coding environment by deleting any existing forks of the desired repository and fork it again.
+Before operating from the command line, I setup the coding environment by deleting any existing forks of the desired repository and forked it again.
 
 # Task 2: Logging Into ieng6
 To log into my ieng6 account, I opened a terminal on VS Code and entered the command `ssh cs15lsp23aj@ieng6.ucsd.edu`. Then pressed `<enter>`.
@@ -31,12 +31,14 @@ The keys I used to the edit the file are:
   * `i` to enter INSERT mode. I entered "2".
   * `esc` button to exit INSERT mode.
   * `:wq` to save the changes and exit vim.
+
 ![Image](lab7ss4.png)
 
 # Task 6: Running Tests Again
 To crosscheck that my code fix works, I ran the tests again. This time I only used the command `bash test.sh`.
 I didn't type out the entire command, instead used the `<up>` key twice and then pressed `<enter>`.
 Since both the tests have passed, the code fix was successful!
+
 ![Image](lab7ss5.png)
 
 # Task 7: Commiting And Pushing to Github
