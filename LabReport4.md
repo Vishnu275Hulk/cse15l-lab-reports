@@ -13,7 +13,7 @@ To log into my ieng6 account, I opened a terminal on VS Code and entered the com
 # Task 3: Cloning Fork of the Repository
 In order to clone the required repository I entered the command `git clone git@github.com:Vishnu275Hulk/lab7.git` and pressed `<enter>`.
 This is a git command that clones any repository.
-![Image](lab72.png)
+![Image](lab7ss2.png)
 
 # Task 4: Running Tests
 First, I used the command `ls` and pressed `<enter>` to verify that the repository has been cloned successfully.
