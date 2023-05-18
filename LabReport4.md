@@ -50,7 +50,7 @@ To accomplish that I entered the following commands and pressed `<enter>` after 
   * `git add ListExamples.java`.
   * `git commit -m "Mission Accomplished"` to commit the changes to Github.
   * `git push origin main` to push the changed file to Github.
-  * 
+  
 ![Image](lab7ss6.png)
 
 The following image is from my Github account and it confirms that the changes made to ListExamples.java have been commited and pushed to Github main.
