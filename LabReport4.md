@@ -7,7 +7,7 @@ The description for the tasks is as follows.
 Before operating from the command line, I setup the coding environment by deleting any existing forks of the desired repository and forked it again.
 
 # Task 2: Logging Into ieng6
-To log into my ieng6 account, I opened a terminal on VS Code and entered the command `ssh cs15lsp23aj@ieng6.ucsd.edu`. Then pressed `<enter>`.
+To log into my ieng6 account, I opened a terminal on VS Code and entered the command `ssh cs15lsp23aj@ieng6.ucsd.edu`. Then pressed `<enter>`. Here I did not have to enter the password for my course specific account because I have created an SSH key for ieng6 earlier. This makes sure that I don't have to enter the password each and everytime I log into ieng6.
 
 ![Image](lab7ss1.png)
 
