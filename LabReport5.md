@@ -15,4 +15,4 @@ I am also attaching a screenshot of my bash script. I am unable to pinpoint the 
 
 ![Image](lr5ss2.png)
 
-# TA's Response
+# TA's Respons
